@@ -2,7 +2,6 @@
 title: "Program Committee"
 layout: categories
 permalink: /pc/
-author_profile: true
 ---
 
 The following researchers are confirmed to be on the program

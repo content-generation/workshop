@@ -5,9 +5,8 @@ layout: tags
 ---
 
 
-### Call for papers
 
-The workshop is a half-day event. We solicit two types of submissions – full papers of 6 pages and short papers of at most 2 pages. We encourage submission of novel work-in-progress papers that show promising directions or demonstration systems, to facilitate discussion during the workshop. We will look to accept 4-6 papers (including full and short papers) peer-reviewed by at least two members of the Program Committee. The workshop will solicit contributions related to the theme of supporting generation and curation of content for e-commerce which includes (but is not limited to):
+The workshop is a half-day event. We encourage submission of novel work-in-progress papers that show promising directions or demonstration systems, to facilitate discussion during the workshop. The workshop will solicit contributions related to the theme of supporting generation and curation of content for e-commerce which includes (but is not limited to):
 
 - Cold start brand/product summary or promotional video generation
 - Novel approaches to generate and evaluate product catalogue, review and comparison summaries

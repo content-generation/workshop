@@ -277,6 +277,51 @@ h1.name {
 	letter-spacing: -5px;
 }
 
+.papers {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 90%;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.papers h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #5B6A9A;
+	margin-bottom: 5px;
+}
+
+.papers span{
+	color: #81899C;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.paper-card {
+	width: 93%;
+	height: 670px;
+	background-color: white;
+	display: inline-block;
+	margin: 7px 20px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px
+
+}
+
+
+
+.paper-card-active , .paper-card:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	background-color: #fff;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+
 .skill-meta {
 	vertical-align: top;
 	display: inline-block;

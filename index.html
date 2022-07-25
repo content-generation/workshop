@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ecom-Gen Kdd 2022</title>
+	<title>Ecom-Gen Kdd 2022</title>  
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 <style type="text/css">
-	
+
+
 	.topnav {
   background-color: #FEFEFE;
   color: #04143A;
@@ -121,40 +122,63 @@
       <p>Five invited speakers shall talk about various topics associated with E-commerce content generation and moderation. </p> 
 			<div class="container cards">
     
-        <div class="card">
+        <div class="card" onclick="popupFunction('talkAbstractAleix')">
           <div class="skill-level">
            <img src="assets/img/aleix_headshot.jpg"> 
           </div>
 
-          <div class="skill-meta">
+          <div class="skill-meta" >
+
             <h3>Aleix Martinez</h3>
             <span>Ohio State University</span>
           </div>
         </div>
+        <div class="modal-content" id="talkAbstractAleix">
+                <span class="close" onclick="closePopup('talkAbstractAleix')">&times;</span>
+                <h3>Shopping from images</h3>
+                <div >
+                The talk covers machine learning and computer vision algorithms to: 1. detect objects in cluttered and un-cluttered scenes, 2. classify these objects within a taxonomy of high-level and fine-gran object categories. and 3. identify objects visual similarity. Despite major advances, these three problems are still challenging. It will also review these difficulties and introduce our proposed solutions. I will the show results on a large scale application with clean as well as highly-cluttered real-world images.
+                </div>  
+        </div>
 
-         <div class="card">
-          <div class="skill-level">
+         <div class="card" onclick="popupFunction('talkAbstractLydia')">
+          <div class="skill-level" >
            <img src="assets/img/chilton-banner-headshot.jpg"> 
           </div>
 
-          <div class="skill-meta">
+          <div class="skill-meta" >
             <h3>Lydia Chilton</h3>
             <span>Columbia University</span>
           </div>
         </div>
 
-        <div class="card">
+        <div class="modal-content" id="talkAbstractLydia">
+                <span class="close" onclick="closePopup('talkAbstractLydia')">&times;</span>
+                <h3>AI Tools for Design and Innovation</h3>
+                <div >
+                How can computational tools and AI help people be better at innovation and creative problem-solving? When solving a problem, people have the tendency to fixate on one problem or solution. If that one idea doesn’t work, they get stuck. To avoid getting stuck, the design process encourages people to have multiple ideas, and explore the space of possibilities before deciding on a problem or a solution. Although this works, it’s highly complex- requiring people to follow many threads at once. We show how AI and other computational tools can help simplify and speed up the most cognitively taxing aspects of the design process:  1. Collecting multiple partial solutions, 2. Synthesizing partial solution into multiple prototypes, 3. Quickly iterating on prototypes to produce an MVP.
+                </div>  
+        </div>
+          
+        <div class="card" onclick="popupFunction('talkAbstractKristen')">
           <div class="skill-level">
            <img src="assets/img/kristen-grauman-headshot.jpg" style="margin:-35px 5px 0px 10px;"> 
           </div>
 
-          <div class="skill-meta">
+          <div class="skill-meta ">
             <h3>Kristen Grauman</h3>
             <span>University of Texas at Austin</span>
           </div>
         </div>
+        <div class="modal-content" id="talkAbstractKristen">
+                <span class="close" onclick="closePopup('talkAbstractKristen')">&times;</span>
+                <h3>Style and Influence From In-the-Wild Fashion Photos</h3>
+                <div > 
+                The fashion domain is a magnet for computer vision. New vision problems are emerging in step with the fashion industry's rapid evolution towards an online, social, and personalized business. Style models, trend forecasting, and recommendation all require visual understanding with rich detail and subtlety. I will present our work developing computer vision methods for fashion. To begin, we explore how to discover styles from Web photos, so as to optimize mix-and-match wardrobes, suggest minimal edits to make an outfit more fashionable, or recommend clothing that flatters diverse human body shapes.  Next, turning to the world stage, we investigate fashion forecasting and influence.  Learned directly from photos, our models discover the “underground map” of a city based on the different clothes people wear, and they forecast what styles will be popular in the future by capturing how trends propagate across 44 major world cities.  Finally, building on this notion of fashion influence, we quantify which cultural factors (as captured by millions of news articles) most affect the clothes people choose to wear across a century of fashion photos.
+                </div>  
+        </div>
 
-        <div class="card">
+        <div class="card" onclick="popupFunction('talkAbstractSam')">
           <div class="skill-level">
            <img src="assets/img/swiseman_profile.png"> 
           </div>
@@ -163,6 +187,13 @@
             <h3>Sam Wiseman</h3>
             <span>Duke University</span>
           </div>
+        </div>
+        <div class="modal-content" id="talkAbstractSam">
+                <span class="close" onclick="closePopup('talkAbstractSam')">&times;</span>
+                <h3>Data-to-text Generation from Retrieved Nearest Neighbors</h3>
+                <div > 
+                I’ll describe some recent work which attempts to generate text by directly cutting and pasting together pieces of text that have been retrieved from nearest neighbors, focusing in particular on a table-to-text generation scenario. The goal of this approach is to make text generation systems both more interpretable and easier to debug: problematic generations can be easily traced to the retrieved neighbors out of which they were created. I will also describe some ongoing work, which seeks to speed up the training of these cut-and-paste generation models.
+                </div>  
         </div>
 
         <div class="card">
@@ -227,6 +258,29 @@
                 </ul>
 		</div>
 	</div>
+  
+  <script type="text/javascript">
+    
+      // When the user clicks on div, open the popup
+      function popupFunction(id) {
+        var popup = document.getElementById(id);
+        if (popup.style.display  == "none" || popup.style.display  == "") {
+          popup.style.display = "block";
+        }
+        else
+        {
+          popup.style.display = "none";
+
+        }
+      }
+
+      function closePopup(id) {
+        var popup = document.getElementById(id);
+        popup.style.display = "none";
+      }
+
+      
+  </script>
 
 </body>
 </html>

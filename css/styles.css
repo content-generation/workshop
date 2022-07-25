@@ -240,6 +240,8 @@ h1.name {
 	padding-top: 50px
 }
 
+
+
 .card-active , .card:hover{
 	transform: scale(1.02);
 	transition: 0.5s;
@@ -247,7 +249,6 @@ h1.name {
 	box-shadow: 0px 5px 50px -8px #ddd;
 	cursor: pointer;
 }
-
 
 .skill-level {
 	display: inline-block;
@@ -297,6 +298,43 @@ h1.name {
 	line-height: 20px;
 	font-size: 16px;
 }
+/* The Modal (background) */
 
+
+/* Modal Content */
+.modal-content {
+  display: none; /* Hidden by default */
+  padding: 20px;
+  width: 90%; /* Full width */
+  height: 100%; /* Full height */
+  z-index: 1; /* Sit on top */
+  background-color: white;
+	margin: 7px 20px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: left;
+
+}
+
+.modal-content h3 {
+	font-size: 20px;
+	font-weight: 800;
+	color: #5B6A9A;
+	margin-bottom: 5px;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 /* Achievements ends */
 

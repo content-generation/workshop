@@ -291,6 +291,15 @@ h1.name {
 	font-weight: 600;
 	color: #5B6A9A;
 	margin-bottom: 5px;
+	line-height:  25px;
+}
+
+.papers h4 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #81899C;
+	margin-left: 10px;
+	line-height:25px;
 }
 
 .papers span{
@@ -301,17 +310,30 @@ h1.name {
 
 .paper-card {
 	width: 93%;
-	height: 670px;
+	height: 780px;
 	background-color: white;
 	display: inline-block;
 	margin: 7px 20px;
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 10px
+	padding-top: 10px;
+ 
 
 }
+.paper-short-card {
+	width: 93%;
+	height: 550px;
+	background-color: white;
+	display: inline-block;
+	margin: 7px 20px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: left;
+	padding-top: 10px;
+  padding-left: 40px;
 
+}
 
 
 .paper-card-active , .paper-card:hover{
